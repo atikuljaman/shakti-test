@@ -1,0 +1,21 @@
+.dot-container{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 999px;
+    border: 1px solid #364C54;
+    margin-bottom: 15px;
+}
+.dot.active{
+    width: 20px;
+    height: 20px;
+    border-radius: 999px;
+    background-color: #364C54;
+}

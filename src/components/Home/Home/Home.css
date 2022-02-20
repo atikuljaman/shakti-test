@@ -1,0 +1,85 @@
+.home-section{
+    padding: 0 40px;
+}
+
+.banner-content-container{
+    display: none;
+    transition: opacity .3s linear;
+}
+.banner-content-container.active{
+    display: block;
+}
+.content-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-content{
+    width: 85%;
+}
+.banner-title{
+    color: #364C54;
+    font-size: 30px;
+    font-weight: bold;
+}
+.banner-desc{
+    color: #364C54;
+    margin: 15px 0;
+}
+.banner-download-btn{
+    color: #08B26F;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.banner-left-bottom{
+    background-color: #EBF5F1;
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 40px;
+    display: none;
+}
+.banner-left-bottom.active{
+    display: block;
+}
+.banner-left-bottom-title{
+    color: #364C54;
+    font-size: 19px;
+    font-weight: 700;
+    margin: 12px 0;
+}
+.banner-left-bottom-subheading{
+    color: #364C54;
+    margin-bottom: 12px;
+}
+.banner-left-contact-btn{
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    font-size: 19px;
+    font-weight: 700;
+    color: #08B26F;
+}
+
+/* USING MEDIA QUERY FOR RESPONSIVE */
+@media screen and (max-width: 768px) {
+    .home-section{
+        padding: 0px 10px;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 22px;
+    }
+    .dot-btn-container{
+        display: none;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .home-section{
+        padding: 0px 10px;
+    }
+}

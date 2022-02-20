@@ -1,0 +1,16 @@
+.navigation-container{
+    box-shadow: 0px 1px 18px -7px rgba(0,0,0,0.5);
+}
+.navbar-link{
+    color: #364C54 !important;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px 11px !important;
+    margin: 0 5px;
+    border-radius: 9px;
+    transition: .3s ease-in-out;
+}
+.navbar-link:hover{
+    background-color: #08B26F;
+    color: white !important;
+}

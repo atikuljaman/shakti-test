@@ -1,0 +1,37 @@
+.banner-bottom-section{
+    padding: 40px 100px;
+}
+.banner-bottom-content{
+    background-color: #EBF5F1;
+    padding: 20px;
+    border-radius: 25px;
+}
+.banner-bottom-title{
+    color: #364C54;
+    font-size: 18px;
+    font-weight: 600;
+    margin:  10px 0;
+}
+.banner-bottom-subheading{
+    color: #364C54;
+}
+.banner-bottom-btn{
+    background-color: transparent;
+    color: #08B26F;
+    border: none;
+    padding: 0%;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* USING MEDIA QUERY FOR RESPONSIVE */
+@media screen and (max-width: 768px) {
+    .banner-bottom-section{
+        padding: 40px 0px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+     .banner-bottom-section{
+        padding: 40px 0px;
+    }
+}
